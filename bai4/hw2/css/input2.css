@@ -1,0 +1,172 @@
+body{
+	height: 900px;
+}
+#header{
+	width: 100%;
+	height: 50px;
+}
+#nameHeader{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 35px;
+	float: left;
+}
+#menuHeader{
+	width: 100%;
+	height: 30px;
+}
+#menuHeader ul > li{
+	float: right;
+	margin-right:20px; 
+	margin-top:50px;  
+	font-family: arial;
+	font-size: 25px;
+	color: black;
+}
+#menuHeader ul > li:hover{
+	float: right;
+	margin-right:20px; 
+	margin-top:50px;  
+	font-family: arial;
+	color: blue;
+	cursor: pointer;
+}
+#button{
+	padding: 5px 10px;
+	margin-top:-11px;
+	font-size: 15px;
+	border-radius:5px;
+	font-family: arial;
+	color: blue;
+}
+#button:hover{
+	padding: 5px 10px;
+	margin-top:-11px;
+	font-size: 15px;
+	border-radius:5px;
+	font-family: arial;
+	color: red;
+}
+#container{
+	margin-top: 80px;
+	font-family: arial;
+}
+#container div{
+	float: left;
+}
+#left{
+	width: 20%;
+	height: 500px;
+}
+#left ul > li{
+	margin-top: 10px; 
+	margin-left: -30px; 
+	color: black;
+}
+#left ul > li:hover{
+	margin-top: 10px; 
+	margin-left: -30px; 
+	color: blue;
+	cursor: pointer;
+}
+#content{
+	width: 76%;
+	height: 750px;
+	margin-top: 10px;
+}
+
+#footer{
+	width: 100%;
+	height: 70px;
+	clear: both;
+}
+#footer p{
+	font-size: 15px;
+	float: left;
+	margin-top:70px;
+	margin-right:13px;  
+}
+#footer ul > li{
+	float: left;
+	color: blue;
+	text-decoration: underline;
+	margin-right:10px;
+	margin-top:70px;  
+}
+#footer ul > li:hover{
+	float: left;
+	color: red;
+	text-decoration: underline;
+	margin-right:10px;
+	margin-top:70px;  
+}
+li{
+	list-style: none;
+}
+span{
+	z-index: 1;
+	position: absolute;
+}
+.content-child{
+	width: 30%;
+	height: 31%;
+	margin:1%;
+	border-radius: 10px;
+}
+.top{
+	width: 100%;
+	height: 20%;
+	background-color: whitesmoke;
+	border-radius:20px 20px 0px 0px;
+}
+.bottom{
+	width: 100%;
+	height: 80%;
+	background-color: orange;
+	border-radius:0px 0px 20px 20px;
+	position: relative;
+}
+.bg1{
+	background-image: url('images/ip.jpg');
+	background-size: cover;
+}
+.bg2{
+	background-image: url('images/travel.jpg');
+	background-size: cover;
+}
+.bg3{
+	background-image: url('images/photo.jpg');
+	background-size: cover;
+}
+.bg4{
+	background-image: url('images/finance.jpg');
+	background-size: cover;
+}
+.bg5{
+	background-image: url('images/movie.jpg');
+	background-size: cover;
+}
+.bg6{
+	background-image: url('images/cooking.jpg');
+	background-size: cover;
+}
+.bg7{
+	background-image: url('images/fashion.jpg');
+	background-size: cover;
+}
+.top h3{
+	margin-left: 10px;
+}
+.info{
+	width: 100%;
+	height: 25%;
+	position: absolute;
+	bottom: 0;
+	border-radius:0px 0px 20px 20px;
+	background-color: gray;
+	opacity: 0.8;
+}
+.info h4{
+	margin-left: 10px;
+	color: white;
+}

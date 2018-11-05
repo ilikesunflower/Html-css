@@ -1,0 +1,29 @@
+.product{
+	font-family: arial; 
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #ccc;
+	width: 130px;
+	height: 150px;
+}
+.product:hover{
+	border: 3px solid orange;
+	width: 130px;
+	height: 150px;
+	cursor: pointer;
+}
+.name{
+	color: black;
+}
+.name:hover{
+	color: blue;
+}
+.price{
+	color: red;
+	font-weight: bold;
+}
+.price:hover{
+	color: green;
+	font-weight: bold;
+}
